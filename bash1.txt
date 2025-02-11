@@ -1,0 +1,123 @@
+$ cd ~
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ pwd
+/c/Users/eliza
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ ls -l
+total 27397
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021 '3D Objects'/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021  AppData/    
+lrwxrwxrwx 1 eliza 197609       30 Mar 19  2021 'Application Data' -> /c/Users/eliza/AppData/Roaming/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021  Contacts/
+lrwxrwxrwx 1 eliza 197609       58 Mar 19  2021  Cookies -> /c/Users/eliza/AppData/Local/Microsoft/Windows/INetCookies/
+drwxr-xr-x 1 eliza 197609        0 Feb 11 19:54  Desktop/
+drwxr-xr-x 1 eliza 197609        0 Dec 20 20:27 'Doctor Web'/
+drwxr-xr-x 1 eliza 197609        0 Dec 27 17:38  Documents/
+drwxr-xr-x 1 eliza 197609        0 Feb 11 19:49  Downloads/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021  Favorites/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021  Links/
+lrwxrwxrwx 1 eliza 197609       28 Mar 19  2021 'Local Settings' -> /c/Users/eliza/AppData/Local/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021  Music/
+lrwxrwxrwx 1 eliza 197609       66 Mar 19  2021  NetHood -> '/c/Users/eliza/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+-rw-r--r-- 1 eliza 197609 17563648 Feb 10 21:48  NTUSER.DAT
+-rw-r--r-- 1 eliza 197609  4550656 Mar 19  2021  ntuser.dat.LOG1
+-rw-r--r-- 1 eliza 197609  4194304 Mar 19  2021  ntuser.dat.LOG2
+-rw-r--r-- 1 eliza 197609    65536 Dec 20 21:13  NTUSER.DAT{f34526bb-575a-11eb-8359-940853928d92}.TM.blf
+-rw-r--r-- 1 eliza 197609   524288 Dec 20 21:13  NTUSER.DAT{f34526bb-575a-11eb-8359-940853928d92}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 eliza 197609   524288 Mar 19  2021  NTUSER.DAT{f34526bb-575a-11eb-8359-940853928d92}.TMContainer00000000000000000002.regtrans-ms
+-rw-r--r-- 1 eliza 197609       20 Mar 19  2021  ntuser.ini
+drwxr-xr-x 1 eliza 197609        0 Jul 30  2021  OneDrive/
+drwxr-xr-x 1 eliza 197609        0 Dec 25  2021  Pictures/
+lrwxrwxrwx 1 eliza 197609       66 Mar 19  2021  PrintHood -> '/c/Users/eliza/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 eliza 197609       55 Mar 19  2021  Recent -> /c/Users/eliza/AppData/Roaming/Microsoft/Windows/Recent/
+drwxr-xr-x 1 eliza 197609        0 Mar 19  2021 'Saved Games'/
+drwxr-xr-x 1 eliza 197609        0 Jul  1  2023  Searches/
+lrwxrwxrwx 1 eliza 197609       55 Mar 19  2021  SendTo -> /c/Users/eliza/AppData/Roaming/Microsoft/Windows/SendTo/
+drwxr-xr-x 1 eliza 197609        0 Nov 26 10:20  Videos/
+lrwxrwxrwx 1 eliza 197609       59 Mar 19  2021 'главное меню' -> '/c/Users/eliza/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 eliza 197609       24 Mar 19  2021 'Мои документы' -> /c/Users/eliza/Documents/
+-rw-r--r-- 1 eliza 197609   305200 May 20  2021 'Пополнение 1.jpg'
+-rw-r--r-- 1 eliza 197609    90452 May 20  2021 'Пополнение 2.png'
+-rw-r--r-- 1 eliza 197609   118696 May 20  2021 'Пополнение 3.png'
+lrwxrwxrwx 1 eliza 197609       58 Mar 19  2021  Шаблоны -> /c/Users/eliza/AppData/Roaming/Microsoft/Windows/Templates/
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ mkdir test1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ cd test1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~/test1
+$ touch 1 2 3
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~/test1
+$ ls -l
+total 0
+-rw-r--r-- 1 eliza 197609 0 Feb 11 19:59 1
+-rw-r--r-- 1 eliza 197609 0 Feb 11 19:59 2
+-rw-r--r-- 1 eliza 197609 0 Feb 11 19:59 3
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~/test1
+$ cd ~
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ mkdir test2
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ rmdir test2
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ rm ~/test1/2
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ mkdir ~/test3
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ touch ~/test3/1 ~/test3/2
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ rmdir test3
+rmdir: failed to remove 'test3': Directory not empty
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ rm -r ~/test3
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ mkdir ~/test4
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ mv ~/test1/1 ~/test1/3 ~/test4
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ echo -e "line\line\line" >> ~/test4/1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ cat ~/test4/1
+line\line\line
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ echo -e "line\line\line" >> ~/test4/3
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ cat ~/test4/1 ~/test4/3
+line\line\line
+line\line\line
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ code ~/test4/1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ sed -i super\happy\members~/test4/1
+sed: -e expression #1, char 26: unterminated `s' command
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ code ~/test4/1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$ nano ~/test4/1
+
+eliza@LAPTOP-I73Q9FGN MINGW64 ~
+$cat ~/test4/1
+super\happy\membery
+line\line\line
